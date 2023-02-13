@@ -27,7 +27,7 @@ composer install
 ```
 
 ```bash
-php artisan key:generate
+./vendor/bin/sail artisan key:generate
 ```
 
 Executar o comando para executar o sail e dar início ao ambiente Docker:
@@ -53,4 +53,24 @@ Requisições para a API:
 | `GET`  |  /cliente/{id} | Consulta os dados de um cliente. |
 | `GET`  |  /consulta/final-placa/{numero} | Consulta todos os clientes, onde o último número da placa é igual o número informado. |
 
+
+Exemplo Payload para rota /clienteCadastro (POST):
+```json
+{
+	"name" : "Matheus",
+	"phone" : "(11) 9999-9999",
+	"cpf" : "432.639.080-81",
+	"car_plate" : "NCE-5698"
+}
+```
+
+Exemplo Payload para rota /cliente/{id} (PUT)
+```json
+{
+	"name" : "Matheus 2",
+	"phone" : "(10) 9999-9999",
+	"cpf" : "432.639.080-81",
+	"car_plate" : "BLV-5698"
+}
+```
 
