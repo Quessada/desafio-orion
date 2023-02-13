@@ -51,8 +51,6 @@ Requisições para a API:
 | `PUT`  | /cliente/{id} | Edição de um cliente. |
 | `DELETE` |  /cliente/{id} | Remoção de um cliente. |
 | `GET`  |  /cliente/{id} | Consulta os dados de um cliente. |
-| `GET`  |  /consulta/final-placa/{numero} | Consulta todos os clientes, onde
-o último número da placa é igual
-o número informado. |
+| `GET`  |  /consulta/final-placa/{numero} | Consulta todos os clientes, onde o último número da placa é igual o número informado. |
 
 
