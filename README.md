@@ -33,20 +33,20 @@ php artisan key:generate
 Executar o comando para executar o sail e dar início ao ambiente Docker:
 
 ```bash
-.\vendor\bin\sail up -d
+./vendor/bin/sail up -d
 ```
 
 Execute o comando para criar as tabelas e popular o banco de dados com o usuário padrão:
 
 ```bash
-sail artisan migrate --seed
+./vendor/bin/sail artisan migrate --seed
 ```
 
 ## Métodos
 Requisições para a API:
 
 | Método | Endpoint | Descrição |
-|---|---| --- |
+|--- |--- | --- |
 | `POST` | /clienteCadastro | Cadastro de um novo cliente. |
 | `PUT`  | /cliente/{id} | Edição de um cliente. |
 | `DELETE` |  /cliente/{id} | Remoção de um cliente. |
