@@ -46,7 +46,7 @@ sail artisan migrate --seed
 Requisições para a API:
 
 | Método | Endpoint | Descrição |
-|---|---|
+|---|---| --- |
 | `POST` | /clienteCadastro | Cadastro de um novo cliente. |
 | `PUT`  | /cliente/{id} | Edição de um cliente. |
 | `DELETE` |  /cliente/{id} | Remoção de um cliente. |
